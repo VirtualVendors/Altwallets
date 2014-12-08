@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
-        "adamgoose/commander": "dev-master",
+        "adamgoose/commander": "~1.0",
         "nbobtc/bitcoind-php": "~1.0"
     },
     "autoload": {
