@@ -27,6 +27,7 @@ class AltwalletsServiceProvider extends ServiceProvider {
 
 		$this->bootErrorHandlers();
 		$this->bootCustomValidators();
+    $this->bootArtisanCommands();
 	}
 
 	/**
@@ -68,4 +69,12 @@ class AltwalletsServiceProvider extends ServiceProvider {
 			return new Validator($translator, $data, $rules, $messages);
 		});
 	}
+
+  /**
+   *
+   */
+  public function bootArtisanCommands()
+  {
+    $this->commands('Virtualvendors\Altwallets\Console\InstallCommand');
+  }
 }
