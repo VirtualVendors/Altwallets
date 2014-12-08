@@ -1,0 +1,16 @@
+body { padding-top: 70px; }
+
+th.min, td.min {
+  width: 1px;
+  white-space: nowrap;
+}
+
+.ellipsis {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.tooltip-inner {
+  max-width: none;
+}

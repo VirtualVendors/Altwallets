@@ -1,0 +1,29 @@
+{
+    "name": "virtualvendors/altwallets",
+    "description": "Altwallets - Online Cryptocurrency Wallet",
+    "authors": [
+        {
+            "name": "Virtual Vendors",
+            "email": "bryan.morrow@virtual-vendor.net"
+        },
+        {
+            "name": "Adam Engebretson",
+            "email": "adam@enge.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "adamgoose/commander": "dev-master",
+        "nbobtc/bitcoind-php": "~1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Virtualvendors\\": "src/Virtualvendors"
+        }
+    },
+    "minimum-stability": "stable"
+}
