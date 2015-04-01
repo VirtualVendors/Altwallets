@@ -72,7 +72,7 @@
               </div>
               <div class="mcol-right">
                 <!-- Number of visitors -->
-                <p>{{ $markets['data']->markets->bitstamp->value  }} <em>USD</em></p>
+                <p>{{ @$markets['data']->markets->bitstamp->value  }} <em>USD</em></p>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -85,7 +85,7 @@
               </div>
               <div class="mcol-right">
                 <!-- Number of visitors -->
-                <p>{{ $markets['data']->markets->btce->value  }} <em>USD</em></p>
+                <p>{{ @$markets['data']->markets->btce->value  }} <em>USD</em></p>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -98,7 +98,7 @@
               </div>
               <div class="mcol-right">
                 <!-- Number of visitors -->
-                <p>{{  $markets['data']->markets->coinbase->value  }}<em>USD</em></p>
+                <p>{{ @$markets['data']->markets->coinbase->value  }}<em>USD</em></p>
 				
               </div>
               <div class="clearfix"></div>
